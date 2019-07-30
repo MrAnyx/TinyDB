@@ -1,6 +1,6 @@
 {
     "name": "mranyx/tiny-db",
-    "type": "package",
+    "type": "library",
     "description": "TinyDB is a json database for tiny php projects",
     "license": "MIT",
     "keywords": [
