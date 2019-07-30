@@ -1,0 +1,27 @@
+{
+    "name": "mranyx/tiny-db",
+    "type": "package",
+    "description": "TinyDB is a json database for tiny php projects",
+    "license": "MIT",
+    "keywords": [
+        "database",
+        "json",
+        "composer",
+        "php",
+        "psr-4"
+    ],
+    "homepage": "https://github.com/MrAnyx/TinyDB",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "MrAnyx",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {}
+    }
+}
