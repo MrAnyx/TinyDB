@@ -20,6 +20,15 @@ class TinyDB{
     }
 
     public function read(){
-    	return file_get_contents($this->file);
+        if(!file_exists($this->file)){
+            throw new Exception("File doesn't exists");
+        }else{
+            if(pathinfo($this->file)['extension'] != "json"){
+                throw new Exception("File not supported (Allowed : Json");
+            }else{
+                return file_get_contents($this->file);
+            }
+        }
+    	
     }
 }
