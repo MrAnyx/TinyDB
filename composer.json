@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TinyDB\\": "src/"
+            "MrAnyx\\TinyDB\\": "src/"
         }
     }
 }
