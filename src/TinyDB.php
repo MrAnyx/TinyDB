@@ -1,6 +1,8 @@
 <?php
 
 namespace MrAnyx\TinyDB;
+use Exception;
+
 
 class TinyDB{
 
