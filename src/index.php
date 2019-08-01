@@ -1,6 +1,6 @@
 <?php
 
-namespace TinyDB;
+namespace MrAnyx\TinyDB;
 
 class TinyDB{
     public function show(){
