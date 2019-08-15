@@ -3,9 +3,6 @@
 namespace MrAnyx\TinyDB;
 use Exception;
 
-
-
-
 class TinyDB{
 
     private $file;
