@@ -1,2 +1,6 @@
 # TinyDB
-TinyDB is a json based databased for php
+
+
+TinyDB is a json based database for php
+
+
